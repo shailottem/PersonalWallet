@@ -16,6 +16,7 @@
 		8308B6EA25E18169006DE914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8308B6E825E18169006DE914 /* LaunchScreen.storyboard */; };
 		8308B6F525E1816A006DE914 /* PersonalWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308B6F425E1816A006DE914 /* PersonalWalletTests.swift */; };
 		8308B70025E1816A006DE914 /* PersonalWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308B6FF25E1816A006DE914 /* PersonalWalletUITests.swift */; };
+		8308B71125E181A8006DE914 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308B71025E181A8006DE914 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8308B6FB25E1816A006DE914 /* PersonalWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonalWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8308B6FF25E1816A006DE914 /* PersonalWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalWalletUITests.swift; sourceTree = "<group>"; };
 		8308B70125E1816A006DE914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8308B71025E181A8006DE914 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				8308B6EB25E18169006DE914 /* Info.plist */,
 				8308B6E025E18165006DE914 /* PersonalWallet.xcdatamodeld */,
 				8308B6E525E18169006DE914 /* Preview Content */,
+				8308B71025E181A8006DE914 /* DataManager.swift */,
 			);
 			path = PersonalWallet;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8308B6E225E18165006DE914 /* PersonalWallet.xcdatamodeld in Sources */,
+				8308B71125E181A8006DE914 /* DataManager.swift in Sources */,
 				8308B6DB25E18165006DE914 /* AppDelegate.swift in Sources */,
 				8308B6DD25E18165006DE914 /* SceneDelegate.swift in Sources */,
 				8308B6DF25E18165006DE914 /* ContentView.swift in Sources */,
